@@ -132,8 +132,10 @@
     <ClCompile Include="prac1_structure.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bank.h" />
-    <ClInclude Include="client.h" />
+    <ClInclude Include="Bank.h" />
+    <ClInclude Include="BankManager.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ClientManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
